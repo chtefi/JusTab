@@ -1,9 +1,7 @@
 @import '~css/modules/colors';
 @import '~css/modules/mixins';
 
-@include vue-transition($scope: '& ', $name: 'loader', $transition-field: opacity)
-
-.panel {
+@include vue-transition($scope: '& ', $name: 'loader', $transition-field: opacity) .panel {
   display: inline-block;
   position: relative;
   vertical-align: top;
@@ -12,6 +10,6 @@
   &--content {
     height: 100vh;
     overflow-y: scroll;
-    padding-top: 128px;
+    padding-top: 58px;
   }
 }
